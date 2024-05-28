@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+:root {
+    --background-color: #1B1B32;
+    --font-color: #F5F6F7;
+    --button-background-color: #FECC4C;
+    --button-font-color: #1B1B32;
+    --button-border-color: #dba418;
+
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: "lato", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#container {
+    width: 90%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+label,
+legend {
+    font-weight: bold;
+}
+
+#budget {
+    width: 200px;
+}
+
+fieldset {
+    padding: 8px;
+    margin-top: 8px
+}
+
+fieldset:first-of-type {
+    margin-top: 15px;
+}
+
+fieldset:last-of-type {
+    margin-bottom: 15px;
+}
+
+select {
+    padding: 2px 8px;
+}
+
+button {
+   background-color: var(--button-background-color);
+   color: var(--button-font-color);
+   height: 22px;
+   padding: 0 6px;
+   border: 2px solid var(--button-border-color);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--button-border-color);
+}
+
+#controls2 {
+    margin-top: 10px
+}
+
+.user-input {
+    width: 100%;
+    margin: 6px 0;
+}
+
+#output {
+    text-align: center;
+}
+
+h3 {
+    margin: 8px 0 13px 0;
+}
+
+hr {
+    height: 3px;
+    background-color: var(--font-color);
+    border: none;
+    margin: 5px 0;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+.surplus {
+    color: yellow;
+
+}
+
+.deficit {
+    color: red;
+}
